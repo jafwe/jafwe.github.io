@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>場館預約管理系統</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-light px-5 border-bottom" id="main-nav">
+        <a href="index.html" class="navbar-brand mr-auto">
+            <img src="img/logo.png" width="327" height="102" alt="logo">
+            <h3 class="fw-bold ml-5 d-inline align-middle">場館預約管理系統</h3>
+        </a>
+        <div>
+            <button class="btn primary-blue text-white px-5 btn-lg btn-block">首頁</button>
+        </div>
+    </nav>
+    <section class="mx-auto layout-body">
+
+        <section  class="py-5">
+            <div id="showcase" class="mb-5">
+            </div>
+            <div class="bg-main search-box py-5">
+                <p class="fw-bold text-center text-white search-title">快速搜尋合適場地</p>
+                <div class="row mb-5">
+
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <a class="btn bg-white w-50 rounded-0 py-2 search-btn">選擇場館類型</a>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <a class="btn bg-white w-50 rounded-0 py-2 search-btn">開始租借時間</a>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <a class="btn bg-white w-50 rounded-0 px-2 py-2 search-btn">結束租借時間</a>
+                        </div>
+
+                </div>
+                <div class="row mb-5">
+
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a class="btn bg-white w-50 rounded-0 py-2 search-btn">最小容納人數</a>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a class="btn bg-white w-50 rounded-0 py-2 search-btn">最大容納人數</a>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a class="btn bg-white w-50 rounded-0 py-2 search-btn">關鍵字搜尋</a>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                        <a href="board.html" class="inline-block bg-orange px-5 py-2 rounded text-white search-button">搜尋</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5 mb-md-7">
+            <div class="py-1 py-sm-2 py-md-4 bg-main2 rounded">
+                <p class="fs-6 fw-bold text-center text-white">重要消息</p>
+            </div>
+
+            <div class="py-sm-2 py-md-4 bg-white d-flex justify-content-between border-bottom">
+                <div class="position-relative ">
+                    <div class="dot"></div>
+                    <p class="pl-3">【學務處課外組】就學貸款公告-112學年度第1學期就學貸款申請</p>
+                </div>
+                <p class="date">2023-10-01</p>
+            </div>
+            <div class="py-sm-2 py-md-4 bg-white d-flex justify-content-between border-bottom">
+                <div class="position-relative">
+                    <div class="dot align-middle"></div>
+                    <p class="pl-3">【學務處課外組】減免申請公告-112學年度第1學期減免申請</p>
+                </div>
+                <p class="date">2023-10-01</p>
+            </div>
+            <div class="py-sm-2 py-md-4 bg-white d-flex justify-content-between border-bottom">
+                <div class="position-relative">
+                    <div class="dot align-middle"></div>
+                    <p class="pl-3">【學務處課外組】社團公告-112學年度第1學期社團申請</p>
+                </div>
+                <p class="date">2023-10-01</p>
+            </div>
+            <div class="py-sm-2 py-md-4 bg-white d-flex justify-content-between border-bottom">
+                <div class="position-relative">
+                    <div class="dot align-middle"></div>
+                    <p class="pl-3">【學務處生輔組】團體保險公告-112學年度第1學期團體保險申請</p>
+                </div>
+                <p class="date">2023-10-01</p>
+            </div>
+        </section>
+
+        <section class="mb-5 mb-md-7">
+            <div class="py-1 py-sm-2 py-md-4 bg-secondary rounded mb-5">
+                <p class="fs-6 fw-bold text-center text-white">場館分類</p>
+            </div>
+
+            <section class="row">
+                <div class="col-12 col-sm-6 col-md-4 mb-2 mb-sm-6">
+                    <div class="overflow-hidden card-button rounded-2">
+                        <div class="position-relative card-button">
+                            <div class="d-flex card-button-background">
+                                <div class="w-50" style="background-color: rgb(36, 180, 193);"></div>
+                                <img src="https://api-venue.nttu.edu.tw/upload/image/venue/type/NPzmPRoi46Jipc4TQfQbWmAptNZXnsniy8LhWyub.jpg" loading="lazy" alt class="w-50"/>
+                            </div>
+                            <div class="position-absolute w-100 h-100 mask"></div>
+                            <div class="position-absolute h-100 bg-white hover-bar"></div>
+                            <p class="position-absolute w-50 fs-4 fw-bold text-center text-white card-title">健康與運動中心</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2 mb-sm-6">
+                    <div class="overflow-hidden card-button rounded-2">
+                        <div class="position-relative card-button ">
+                            <div class="d-flex card-button-background">
+                                <div class="w-50" style="background-color: rgb(36, 180, 193);"></div>
+                                <img src="https://api-venue.nttu.edu.tw/upload/image/venue/type/NPzmPRoi46Jipc4TQfQbWmAptNZXnsniy8LhWyub.jpg" loading="lazy" alt class="w-50"/>
+                            </div>
+                            <div class="position-absolute w-100 h-100 mask"></div>
+                            <div class="position-absolute h-100 bg-white hover-bar"></div>
+                            <p class="position-absolute w-50 fs-4 fw-bold text-center text-white card-title">健康與運動中心</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2 mb-sm-6">
+                    <div class="overflow-hidden card-button rounded-2">
+                        <div class="position-relative card-button">
+                            <div class="d-flex card-button-background">
+                                <div class="w-50" style="background-color: rgb(36, 180, 193);"></div>
+                                <img src="https://api-venue.nttu.edu.tw/upload/image/venue/type/NPzmPRoi46Jipc4TQfQbWmAptNZXnsniy8LhWyub.jpg" loading="lazy" alt class="w-50"/>
+                            </div>
+                            <div class="position-absolute w-100 h-100 mask"></div>
+                            <div class="position-absolute h-100 bg-white hover-bar"></div>
+                            <p class="position-absolute w-50 fs-4 fw-bold text-center text-white card-title">健康與運動中心</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <footer class="d-flex justify-content-center w-100 py-6 py-sm-5 py-md-8 px-7 px-sm-0 footer position-absolute">
+        <div class="text-black">
+            <p style="text-align:justify;">校本部：95092臺東市大學路二段369號 電話 (總機) ：089-318855 傳真：089-517316</p>
+            <p style="text-align:justify;">24小時校安緊急專線：089-517119 校務建言信箱：president.mailbox@nttu.edu.tw</p>
+            <p class="text-center">國立臺東大學版權所有 © 2012-2022</p>
+        </div>
+    </footer>
+
+
+
+  <script>
+
+  </script>
+</body>
+
+</html>
