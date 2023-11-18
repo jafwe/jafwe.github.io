@@ -188,6 +188,10 @@ p{
     padding-right: 6rem !important; }
 }
 
+.break-word {
+  word-break: break-all;
+}
+
 .search_page_venueCard {
   margin-bottom: 54px;
 }
