@@ -3815,7 +3815,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000; }
+  background-color: #00000055; }
   .modal-backdrop.fade {
     opacity: 0; }
   .modal-backdrop.show {
@@ -3832,7 +3832,9 @@ button.close {
   .modal-header .close {
     padding: 1rem;
     margin: -1rem -1rem -1rem auto; }
-
+.modal-scroll {
+  overflow-y: auto;
+}
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5; }
@@ -4276,6 +4278,10 @@ button.close {
 .align-text-top {
   vertical-align: text-top !important; }
 
+.bg-outlay {
+  background-color: #00000088 !important; 
+}
+
 .bg-primary {
   background-color: #3292a6 !important; }
 
@@ -4337,6 +4343,12 @@ a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important; }
+  
+.bg-subtle {
+  background-color: #dfe4e9 !important; }
+
+.bg-gray-light {
+  background-color: #a0aebb !important; }
 
 .bg-gray {
   background-color: #6c757d !important; }
@@ -4412,6 +4424,8 @@ button.bg-dark:focus {
 .border-dark {
   border-color: #343a40 !important; }
 
+.border-black {
+    border-color: #000 !important; }
 .border-white {
   border-color: #fff !important; }
 
@@ -4422,6 +4436,10 @@ button.bg-dark:focus {
   border-top-left-radius: 0.25rem !important;
   border-top-right-radius: 0.25rem !important; }
 
+.rounded-top-2 {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important; }
+    
 .rounded-right {
   border-top-right-radius: 0.25rem !important;
   border-bottom-right-radius: 0.25rem !important; }
